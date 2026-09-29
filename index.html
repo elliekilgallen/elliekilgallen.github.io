@@ -21,7 +21,7 @@
     }
 
     .card {
-      width: min(900px, 92vw);
+      width: min(1000px, 92vw);
       background: white;
       padding: 48px;
       display: flex;
@@ -61,7 +61,30 @@
       color: #555;
       font-size: 18px;
       line-height: 1.6;
+      margin: 0 0 25px;
+    }
+
+    .skills-title {
+      font-size: 24px;
+      color: #333;
+      text-decoration: underline;
+      margin: 0 0 12px;
+    }
+
+    .skills {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
       margin: 0;
+      padding-left: 22px;
+    }
+
+    .skills li {
+      margin-bottom: 8px;
+    }
+
+    .skills strong {
+      color: #333;
     }
 
     @media (max-width: 700px) {
@@ -81,6 +104,10 @@
         margin-left: auto;
         margin-right: auto;
       }
+
+      .skills {
+        text-align: left;
+      }
     }
   </style>
 </head>
@@ -96,6 +123,7 @@
     >
 
     <section class="content">
+
       <h1>Ellie Kilgallen</h1>
 
       <div class="line"></div>
@@ -104,6 +132,31 @@
         Highly motivated Marketing student with a 3.857 GPA and experience
         in project management, event promotion, and community engagement.
       </p>
+
+      <h2 class="skills-title">Skills</h2>
+
+      <ul class="skills">
+        <li>
+          <strong>Marketing &amp; Digital:</strong>
+          Social Media, Event Promotion, Fundraising Campaigns, Public Speaking
+        </li>
+
+        <li>
+          <strong>Interpersonal:</strong>
+          Leadership, Collaboration, Communication, Problem-Solving, Customer Service
+        </li>
+
+        <li>
+          <strong>Organizational:</strong>
+          Time Management, Project Management, Conflict Resolution, Attention to Detail
+        </li>
+
+        <li>
+          <strong>Technical:</strong>
+          Microsoft Office Suite, Google Suite, Merchandise Design
+        </li>
+      </ul>
+
     </section>
 
   </main>
